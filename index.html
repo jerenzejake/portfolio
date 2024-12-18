@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Portfolio</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Header */
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 20px;
+            border: 5px solid #fff; /* Adds a white border around the image */
+        }
+
+        header h1 {
+            margin-top: 20px;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        /* Main sections */
+        section {
+            padding: 40px 20px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* About Me Section */
+        #about {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        #about p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Skills Section */
+        #skills {
+            background-color: #e0f7fa;
+            padding: 40px 20px;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .skills div {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .skills h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        /* Projects Section */
+        #projects {
+            padding: 40px 20px;
+            background-color: #fff3e0;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .projects div {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .projects h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        /* Contact Section */
+        #contact {
+            background-color: #e0f7fa;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        #contact p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .contact-info a {
+            color: #1e88e5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            section {
+                padding: 20px;
+            }
+
+            .skills, .projects {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="picture/jerenze.jpg" alt="Your Picture">
+        <h1>Engr Jerenze Jake P. Franciso</h1>
+        <p>Web Developer | Designer | Programmer | Computer Programming Engineering Graduate</p>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is Engr Jerenze Jake P. Francisco, and I am a Computer Programming Engineering graduate. Throughout my college journey, I have honed my skills in creating dynamic and responsive web applications, mobile apps, and back-end systems. I specialize in HTML, CSS, JavaScript, Python, Java, and Flutter, which I’ve used to complete various academic projects. I am passionate about coding, problem-solving, and continuously learning new technologies to improve my skills.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div>
+                <h3>HTML</h3>
+                <p>Proficient in creating structured, semantic web pages using HTML5.</p>
+            </div>
+            <div>
+                <h3>CSS</h3>
+                <p>Experienced in styling and making responsive web designs with CSS3.</p>
+            </div>
+            <div>
+                <h3>JavaScript</h3>
+                <p>Skilled in JavaScript to create interactive features and web applications.</p>
+            </div>
+            <div>
+                <h3>Python</h3>
+                <p>Used for building dynamic web apps and scripting tasks during projects.</p>
+            </div>
+            <div>
+                <h3>Java</h3>
+                <p>Experienced in using Java to create back-end applications and desktop software.</p>
+            </div>
+            <div>
+                <h3>Flutter</h3>
+                <p>Used Flutter for building cross-platform mobile applications with great user interfaces.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div>
+                <h3>Project 1: Web Application</h3>
+                <p>Developed a dynamic web application that allows users to track tasks and set reminders. Built with HTML, CSS, JavaScript, and a Node.js back-end.</p>
+            </div>
+            <div>
+                <h3>Project 2: Mobile App</h3>
+                <p>Created a cross-platform mobile app with Flutter for managing personal finances, supporting both Android and iOS devices.</p>
+            </div>
+            <div>
+                <h3>Project 3: Python Automation</h3>
+                <p>Developed a Python-based script that automates data scraping and stores results in a database for analysis.</p>
+            </div>
+            <div>
+                <h3>Project 4: Java Desktop App</h3>
+                <p>Built a desktop application in Java for inventory management, with features like stock tracking and report generation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to collaborate, have questions, or just want to connect, feel free to reach out!</p>
+        <div class="contact-info">
+            <p>Email: <a href="jerenzejakef@gmail.com"></a>jerenzejakef@gmail.com</p>
+            <p>Facebook: <a href="https://www.facebook.com/jakejerenze.francisco" target="_blank">Jerenze Jake Francisco</a></p>
+            <p>Mobile Number: <a >09107297178</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
